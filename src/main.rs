@@ -1,5 +1,5 @@
 #![cfg_attr(not(debug_assertions), windows_subsystem = "windows")]
-use eframe::egui::{self, FontDefinitions, FontId};
+use eframe::egui::{self};
 mod settings;
 use settings::Settings;
 fn main() -> eframe::Result {

@@ -1,4 +1,4 @@
-use eframe::egui::{self, vec2, Layout, RichText, Ui};
+use eframe::egui::Ui;
 
 #[derive(Default)]
 pub enum Pallet {
@@ -100,17 +100,4 @@ impl Settings {
             });
         });
     }
-    fn get_path(&self) -> &String {
-        &self.path
-    }
-    fn get_mut_path(&mut self) -> &mut String {
-        &mut self.path
-    }
-    fn get_file(&mut self) -> &String {
-        &self.file
-    }
-    fn get_mut_file(&mut self) -> &mut String {
-        &mut self.file
-    }
-    fn wigdet() {}
 }
